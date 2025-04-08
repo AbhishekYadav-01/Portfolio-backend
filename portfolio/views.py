@@ -19,7 +19,7 @@ load_dotenv()
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Initialize Sentence Transformer model
-model = SentenceTransformer('all-MiniLM-L6-v2')
+model = SentenceTransformer('paraphrase-albert-small-v2')  # ~45MB
 
 # Function to extract text from PDF
 def extract_text_from_pdf(pdf_path):
