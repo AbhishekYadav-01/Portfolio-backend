@@ -8,3 +8,9 @@ PyPDF2
 numpy
 python-decouple
 dotenv
+Django
+gunicorn==21.2.0  # Explicitly add this line
+whitenoise
+dj-database-url
+psycopg2-binary
+python-dotenv
